@@ -1,0 +1,234 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quick draw</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+  <ol>
+      <div class="test_image_and_result col-xs-12">
+      <li class="col-sm-4 col-xs-12">
+          <b>Test image-</b>
+          <img src="https://atlasware.in/cdn/shop/products/Weblist_5_1200x.jpg?v=1646466781" class="img-responsive">
+      </li>
+      <h5 class="col-sm-4 col-xs-12">
+        Output on<b>Google lens</b>
+        <span></span>
+    </h5>
+    <h5 class="col-sm-4 col-xs-12">
+        Output on<b>Mobilenet model</b>
+        <span></span>
+    </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+      </div>
+  </ol>
+  <ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://dictionary.cambridge.org/images/thumb/book_noun_001_01679.jpg?version=5.0.389" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+<ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://cdn.thewirecutter.com/wp-content/media/2023/10/androidphones-2048px-4861.jpg" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+<ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://m.media-amazon.com/images/I/81PtF30TLUL._AC_UY1100_.jpg" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+<ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://m.media-amazon.com/images/I/81RwfWqDA4L._AC_UF1000,1000_QL80_.jpg" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+<ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fjimgorzelany%2F2019%2F07%2F23%2Fhere-are-the-coolest-new-cars-for-2020%2F&psig=AOvVaw1Ahy5sGdyrwk9s_vtXKnuT&ust=1712230907110000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMi7l6r7pYUDFQAAAAAdAAAAABAE" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+<ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://media.zigcdn.com/media/model/2021/Sep/yamaha-r15-v4-dark-right-side-view_270x180.jpg" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+<ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Foffimart.com%2Fgel-pens%2F435-add-gel-2k-liquid-ink-pen-blue.html&psig=AOvVaw3MaO5ez2vHL1Fqt22X1jQn&ust=1712230966003000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPC6scX7pYUDFQAAAAAdAAAAABAE" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+<ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://www.tatapravesh.com/wp-content/uploads/2019/04/Tata-Pravesh-Pearl-Shell-Door-Teak-2.jpg" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+<ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test image-</b>
+        <img src="https://images.unsplash.com/photo-1622428051717-dcd8412959de?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amFyfGVufDB8fDB8fHww" class="img-responsive">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Google lens</b>
+      <span></span>
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">
+      Output on<b>Mobilenet model</b>
+      <span></span>
+  </h5>
+<div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+</div>
+    </div>
+</ol>
+</center>
+</body>
